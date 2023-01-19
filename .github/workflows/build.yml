@@ -1,8 +1,11 @@
 ---
-name: build
+name: 'deploy'
 
 # yamllint disable-line rule:truthy
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
