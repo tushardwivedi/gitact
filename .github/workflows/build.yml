@@ -19,5 +19,5 @@ jobs:
       - name: Push to TejPage
         uses: dokku/github-action@master
         with:
-          git_remote_url: 'ssh://tejpage@tejpage.com:22/gitact'
+          git_remote_url: 'ssh://test-troy-2@tejpage.com:22/gitact'
           ssh_private_key: ${{ secrets.DEPLOY_KEY }}
